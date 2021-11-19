@@ -1,3 +1,183 @@
 {
-  "wishlist": []
+  "wishlist": [
+    {
+      "adult": false,
+      "backdrop_path": "/dK12GIdhGP6NPGFssK2Fh265jyr.jpg",
+      "genre_ids": [
+        28,
+        35,
+        80,
+        53
+      ],
+      "id": 512195,
+      "original_language": "en",
+      "original_title": "Red Notice",
+      "overview": "An Interpol-issued Red Notice is a global alert to hunt and capture the world's most wanted. But when a daring heist brings together the FBI's top profiler and two rival criminals, there's no telling what will happen.",
+      "popularity": 2786.704,
+      "poster_path": "/wdE6ewaKZHr62bLqCn7A2DiGShm.jpg",
+      "release_date": "2021-11-04",
+      "title": "Red Notice",
+      "video": false,
+      "vote_average": 6.9,
+      "vote_count": 896
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/70nxSw3mFBsGmtkvcs91PbjerwD.jpg",
+      "genre_ids": [
+        878,
+        28,
+        12
+      ],
+      "id": 580489,
+      "original_language": "en",
+      "original_title": "Venom: Let There Be Carnage",
+      "overview": "After finding a host body in investigative reporter Eddie Brock, the alien symbiote must face a new enemy, Carnage, the alter ego of serial killer Cletus Kasady.",
+      "popularity": 4512.912,
+      "poster_path": "/rjkmN1dniUHVYAtwuV3Tji7FsDO.jpg",
+      "release_date": "2021-09-30",
+      "title": "Venom: Let There Be Carnage",
+      "video": false,
+      "vote_average": 6.8,
+      "vote_count": 1968
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/oE6bhqqVFyIECtBzqIuvh6JdaB5.jpg",
+      "genre_ids": [
+        878,
+        18,
+        12
+      ],
+      "id": 522402,
+      "original_language": "en",
+      "original_title": "Finch",
+      "overview": "On a post-apocalyptic Earth, a robot, built to protect the life of his dying creator's beloved dog, learns about life, love, friendship, and what it means to be human.",
+      "popularity": 3377.933,
+      "poster_path": "/jKuDyqx7jrjiR9cDzB5pxzhJAdv.jpg",
+      "release_date": "2021-11-04",
+      "title": "Finch",
+      "video": false,
+      "vote_average": 8.2,
+      "vote_count": 962
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/u5Fp9GBy9W8fqkuGfLBuuoJf57Z.jpg",
+      "genre_ids": [
+        12,
+        28,
+        53
+      ],
+      "id": 370172,
+      "original_language": "en",
+      "original_title": "No Time to Die",
+      "overview": "Bond has left active service and is enjoying a tranquil life in Jamaica. His peace is short-lived when his old friend Felix Leiter from the CIA turns up asking for help. The mission to rescue a kidnapped scientist turns out to be far more treacherous than expected, leading Bond onto the trail of a mysterious villain armed with dangerous new technology.",
+      "popularity": 4689.436,
+      "poster_path": "/iUgygt3fscRoKWCV1d0C7FbM9TP.jpg",
+      "release_date": "2021-09-29",
+      "title": "No Time to Die",
+      "video": false,
+      "vote_average": 7.6,
+      "vote_count": 1839
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/cinER0ESG0eJ49kXlExM0MEWGxW.jpg",
+      "genre_ids": [
+        28,
+        12,
+        14
+      ],
+      "id": 566525,
+      "original_language": "en",
+      "original_title": "Shang-Chi and the Legend of the Ten Rings",
+      "overview": "Shang-Chi must confront the past he thought he left behind when he is drawn into the web of the mysterious Ten Rings organization.",
+      "popularity": 9589.905,
+      "poster_path": "/1BIoJGKbXjdFDAqUEiA2VHqkK1Z.jpg",
+      "release_date": "2021-09-01",
+      "title": "Shang-Chi and the Legend of the Ten Rings",
+      "video": false,
+      "vote_average": 7.9,
+      "vote_count": 3003
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/zBkHCpLmHjW2uVURs5uZkaVmgKR.jpg",
+      "genre_ids": [
+        16,
+        35,
+        10751
+      ],
+      "id": 585245,
+      "original_language": "en",
+      "original_title": "Clifford the Big Red Dog",
+      "overview": "As Emily struggles to fit in at home and at school, she discovers a small red puppy who is destined to become her best friend. When Clifford magically undergoes one heck of a growth spurt, becomes a gigantic dog and attracts the attention of a genetics company, Emily and her Uncle Casey have to fight the forces of greed as they go on the run across New York City. Along the way, Clifford affects the lives of everyone around him and teaches Emily and her uncle the true meaning of acceptance and unconditional love.",
+      "popularity": 2659.339,
+      "poster_path": "/ygPTrycbMSFDc5zUpy4K5ZZtQSC.jpg",
+      "release_date": "2021-11-10",
+      "title": "Clifford the Big Red Dog",
+      "video": false,
+      "vote_average": 8,
+      "vote_count": 133
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/4gKxQIW91hOTELjY5lzjMbLoGxB.jpg",
+      "genre_ids": [
+        28,
+        53,
+        878
+      ],
+      "id": 763164,
+      "original_language": "en",
+      "original_title": "Apex",
+      "overview": "Ex-cop James Malone is serving a life sentence for a crime he didn’t commit. He is offered a chance at freedom if he can survive a deadly game of Apex, in which six hunters pay for the pleasure of hunting another human on a remote island. He accepts, and once he arrives, all hell breaks loose.",
+      "popularity": 2624.563,
+      "poster_path": "/chTkFGToW5bsyw3hgLAe4S5Gt3.jpg",
+      "release_date": "2021-11-12",
+      "title": "Apex",
+      "video": false,
+      "vote_average": 5.6,
+      "vote_count": 151
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/HVcza6tJtWFrLriuh3Ano4Vt46.jpg",
+      "genre_ids": [
+        28,
+        12,
+        14
+      ],
+      "id": 1930,
+      "original_language": "en",
+      "original_title": "The Amazing Spider-Man",
+      "overview": "Peter Parker is an outcast high schooler abandoned by his parents as a boy, leaving him to be raised by his Uncle Ben and Aunt May. Like most teenagers, Peter is trying to figure out who he is and how he got to be the person he is today. As Peter discovers a mysterious briefcase that belonged to his father, he begins a quest to understand his parents' disappearance – leading him directly to Oscorp and the lab of Dr. Curt Connors, his father's former partner. As Spider-Man is set on a collision course with Connors' alter ego, The Lizard, Peter will make life-altering choices to use his powers and shape his destiny to become a hero.",
+      "popularity": 992.195,
+      "poster_path": "/jIfkQNARYyERqRAq1p1c8xgePp4.jpg",
+      "release_date": "2012-06-23",
+      "title": "The Amazing Spider-Man",
+      "video": false,
+      "vote_average": 6.6,
+      "vote_count": 13541
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/bwPXMrDyPDaSiQaOmUo10GLn0rf.jpg",
+      "genre_ids": [
+        27
+      ],
+      "id": 775943,
+      "original_language": "es",
+      "original_title": "Llanto Maldito",
+      "overview": "Sara and Óscar, a couple going through a marital crisis, decide to spend a week in a remote country cabin with their two children, Alicia and Tomás. The family tries to have a quiet time, but something strange happens there. There is a woman who prowls through the forest and cries uncontrollably looking for a baby she has just lost. This deeply affects the family who will have to stay together to survive this nightmare.",
+      "popularity": 1052.978,
+      "poster_path": "/iwlmZKndp7fIfHbxVzQtk9zby3A.jpg",
+      "release_date": "2021-07-29",
+      "title": "Tarumama",
+      "video": false,
+      "vote_average": 4.8,
+      "vote_count": 9
+    }
+  ]
 }
