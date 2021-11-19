@@ -1,0 +1,332 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins");
+
+* {
+  margin: 0;
+  font-family: "Poppins";
+  --primary-color: #000;
+  --secondary-color: #0c0b13;
+  --third-color: #8a00ff;
+  --fourth-color: #fff;
+}
+
+body {
+  margin: 0;
+  background-color: var(--primary-color);
+}
+
+.navbar {
+  padding: 20px;
+  background-color: transparent;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 0.5px solid var(--secondary-color);
+}
+
+.navbar h1 {
+  color: var(--fourth-color);
+  font-weight: normal;
+}
+
+.navbar .links {
+  font-size: 15px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.navbar a {
+  margin-left: 16px;
+  padding: 6px;
+  text-decoration: none;
+  color: var(--fourth-color);
+  font-weight: lighter;
+}
+
+.form {
+  display: flex;
+  justify-content: center;
+}
+
+.search {
+  width: 50vw;
+  margin: 24px 0;
+  background-color: var(--fourth-color);
+  padding: 2.5px 10px;
+  border: 2px solid transparent;
+  border-radius: 10px;
+  color: var(--secondary-color);
+}
+
+.search:focus {
+  outline: 0;
+  border: 2px solid var(--third-color);
+  border-radius: 10px;
+}
+
+.no-result {
+  margin-top: 24px;
+  color: var(--fourth-color);
+}
+
+.movie-list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  min-height: 100vh;
+}
+
+.movie {
+  max-width: 200px;
+  margin: 1rem;
+  background-color: var(--secondary-color);
+  position: relative;
+  transition: all 0.2s ease-in-out;
+  overflow: hidden;
+}
+
+.poster-container {
+  position: relative;
+  text-align: center;
+  color: var(--fourth-color);
+}
+
+.movie img {
+  height: 426.91;
+  max-width: 100%;
+  object-fit: cover;
+}
+
+.poster-container button {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  border: 0px;
+  padding: 4px 8px;
+  border-radius: 4px;
+}
+
+.add-movie {
+  width: 72.19px;
+  background-color: var(--secondary-color);
+  color: var(--fourth-color);
+}
+
+.add-movie:hover {
+  background-color: var(--third-color);
+  cursor: pointer;
+}
+
+.wish-list {
+  background-color: green;
+  color: var(--fourth-color);
+  width: 72.19px;
+}
+
+.remove {
+  display: none;
+  background-color: red;
+}
+
+.wish-list:hover {
+  background-color: red;
+}
+
+.wish-list:hover .added {
+  display: none;
+}
+.wish-list:hover .remove {
+  display: block;
+  cursor: pointer;
+}
+
+.movie-info {
+  margin-bottom: 8px;
+  padding: 8px 16px;
+  font-size: 10px;
+}
+
+.movie-title {
+  margin-top: 8px;
+  font-size: 16px;
+  font-weight: normal;
+  color: var(--fourth-color);
+}
+
+.movie-popularity {
+  font-size: 15px;
+  color: var(--third-color);
+  font-weight: lighter;
+}
+
+.movie:hover {
+  transform: scale(1.05);
+  cursor: pointer;
+}
+
+.page-button {
+  display: flex;
+  justify-content: space-between;
+  margin: 16px 20px;
+}
+
+.page-button a {
+  text-decoration: none;
+  color: var(--fourth-color);
+}
+
+.next-button {
+  background-color: transparent;
+  border: 2px solid transparent;
+  color: var(--fourth-color);
+  border-radius: 16px;
+  padding: 4px 8px;
+  font-size: 16px;
+}
+
+.next-button:hover {
+  background-color: var(--third-color);
+  cursor: pointer;
+}
+
+.prev-button {
+  background-color: transparent;
+  border: 2px solid transparent;
+  color: var(--fourth-color);
+  border-radius: 16px;
+  padding: 4px 8px;
+  font-size: 16px;
+}
+
+.prev-button:hover {
+  background-color: var(--third-color);
+  cursor: pointer;
+}
+
+.modal {
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  padding-bottom: 100px;
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 80%;
+  overflow-y: auto; /* Enable scroll if needed */
+  background-color: rgb(0, 0, 0); /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
+}
+
+.modal-content {
+  background-color: var(--secondary-color);
+  margin: auto;
+  border: 1px solid transparent;
+  width: 80%;
+  -webkit-animation-name: slideIn;
+  -webkit-animation-duration: 0.5s;
+  animation-name: slideIn;
+  animation-duration: 0.5s;
+}
+
+.modal-content img {
+  width: 100%;
+  height: 450px;
+  object-fit: cover;
+  object-position: 0 30%;
+}
+
+.modal-movie-info {
+  position: relative;
+  padding: 8px 24px;
+}
+
+.modal-movie-title {
+  margin-right: 130px;
+  color: var(--third-color);
+  font-size: 40px;
+  margin-bottom: 16px;
+}
+
+.modal-movie-release-date span {
+  opacity: 20%;
+}
+
+.modal-movie-popularity span {
+  opacity: 20%;
+}
+.modal-movie-release-date {
+  color: var(--fourth-color);
+  font-size: 15px;
+  font-weight: lighter;
+}
+
+.modal-movie-popularity {
+  color: var(--fourth-color);
+  font-size: 15px;
+  font-weight: lighter;
+}
+.movie-desc {
+  margin-bottom: 20px;
+  padding: 8px 24px;
+  font-size: 15px;
+  color: var(--fourth-color);
+}
+.close-modal {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  padding: 0.25em 0.5em;
+  color: var(--primary-color);
+  float: right;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.close-modal:hover,
+.close-modal:focus {
+  color: var(--fourth-color);
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.modal button {
+  color: var(--fourth-color);
+  position: absolute;
+  top: 20px;
+  right: 16px;
+  border: 0px;
+  padding: 4px 16px;
+  border-radius: 4px;
+  font-size: 20px;
+  width: 120px;
+}
+
+footer {
+  background-color: var(--secondary-color);
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 2em 5em;
+  margin-top: 24px;
+}
+
+.TMDB {
+  width: 150px;
+}
+
+.notice {
+  color: var(--fourth-color);
+  font-weight: lighter;
+  width: 150px;
+  font-size: 15px;
+  margin-bottom: 0;
+  opacity: 60%;
+}
+
+.author {
+  color: var(--fourth-color);
+}
+
+.github {
+  width: 80px;
+  margin-top: 16px;
+}
